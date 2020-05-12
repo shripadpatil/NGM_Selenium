@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NG Metering Application Sanity Test Suite]">
+  <listeners>
+    <listener class-name="com.ibm.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="NG Metering Application Sanity Test Cases(failed)">
+    <classes>
+      <class name="com.ibm.sanity.tests.NG_Metering_App_URL_Test">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="NGMeteringApp_URL_Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_URL_Test -->
+      <class name="com.ibm.sanity.tests.NG_Metering_App_DB_Connectivity_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="NG_Metering_App_DBConnectivity_Test"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_DB_Connectivity_Test -->
+      <class name="com.ibm.sanity.tests.NG_Metering_App_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="NGMeteringApp_Login_Test"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_LoginTest -->
+      <class name="com.ibm.sanity.tests.NG_Metering_App_SAP_Rainbow_Test">
+        <methods>
+          <include name="NGMeteringApp_SAPRainbow_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_SAP_Rainbow_Test -->
+      <class name="com.ibm.sanity.tests.NG_Metering_App_SAP_Phoenix_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+          <include name="NGMeteringApp_SAPPhoenix_Test"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_SAP_Phoenix_Test -->
+    </classes>
+  </test> <!-- NG Metering Application Sanity Test Cases(failed) -->
+</suite> <!-- Failed suite [NG Metering Application Sanity Test Suite] -->

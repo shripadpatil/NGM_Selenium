@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104190" started-at="2020-05-05T05:39:01Z" finished-at="2020-05-05T05:40:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104190" started-at="2020-05-05T05:39:01Z" finished-at="2020-05-05T05:40:45Z">
+      <class name="com.ibm.sanity.tests.NG_Metering_App_URL_Test">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.ibm.sanity.tests.NG_Metering_App_URL_Test@46d56d67]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-05-05T11:09:01Z" finished-at="2020-05-05T11:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibm.sanity.tests.NG_Metering_App_URL_Test@46d56d67]" name="setUp" is-config="true" duration-ms="87059" started-at="2020-05-05T11:09:01Z" finished-at="2020-05-05T11:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="NGMeteringApp_URL_Test()[pri:0, instance:com.ibm.sanity.tests.NG_Metering_App_URL_Test@46d56d67]" name="NGMeteringApp_URL_Test" duration-ms="11195" started-at="2020-05-05T11:10:28Z" finished-at="2020-05-05T11:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NGMeteringApp_URL_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ibm.sanity.tests.NG_Metering_App_URL_Test@46d56d67]" name="tearDown" is-config="true" duration-ms="5895" started-at="2020-05-05T11:10:39Z" finished-at="2020-05-05T11:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibm.sanity.tests.NG_Metering_App_URL_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

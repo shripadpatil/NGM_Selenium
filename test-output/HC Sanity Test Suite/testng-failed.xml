@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HC Sanity Test Suite]">
+  <test name="HC Sanity Tests(failed)">
+    <classes>
+      <class name="com.ibm.sanity.tests.HC_SAP_Rainbow_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="HC_SAPRainbow_Test"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.ibm.sanity.tests.HC_SAP_Rainbow_Test -->
+    </classes>
+  </test> <!-- HC Sanity Tests(failed) -->
+</suite> <!-- Failed suite [HC Sanity Test Suite] -->
